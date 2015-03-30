@@ -83,6 +83,9 @@ wiredepCopy: {
 }
 ```
 
+
+
+
 ## Contributing
 
 In lieu of a formal styleguide, take care to maintain the existing coding
@@ -91,3 +94,7 @@ code using [Grunt](http://gruntjs.com/).
 
 ## License
 Copyright (c) 2014 Tom Vincent. Licensed under the MIT license.
+
+
+##0.0.2
+The copy in this package was using replace, which doesn't work properly in all cases.  This fix was in version 0.0.2
