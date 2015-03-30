@@ -17,7 +17,8 @@ module.exports = function(grunt) {
     var options = this.options({
       src: '.',
       dest: '.',
-      wiredep: {}
+      wiredep: {},
+      bower: 'bower_components'
     });
 
     var dependencies = wiredepCopy.collate(options.wiredep);
